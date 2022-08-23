@@ -103,6 +103,7 @@ TextLabel2.TextScaled = true
 TextLabel2.TextSize = 14
 TextLabel2.TextWrapped = true
 wait(0.1)
+--Transition
 TextLabel2.Text = "F"
 wait(0.1)
 TextLabel2.Text = "FE"
@@ -332,13 +333,11 @@ FEAnimations.TextColor3 = Color3.new(0.454902, 0.454902, 0.454902)
 FEAnimations.TextSize = 14
 
 FEAnimations.MouseButton1Down:connect(function()
--- Energize by illremember, fe animations
--- DO NOT COPY AND CLAIM AS OWN, if you are using some of the script for your own, credit is highly appreciated!
--- Thank you, and enjoy.
+
 
 -- Objects
 
-game.StarterGui:SetCore("SendNotification", {Title = "Energize Loaded:";Text = "Credits to illremember";Icon = "rbxassetid://920542878";Duration = 2})
+game.StarterGui:SetCore("SendNotification", {Title = "Energize Loaded:";Text = "LOL";Icon = "rbxassetid://920542878";Duration = 2})
 
 local Energize = Instance.new("ScreenGui") -- The actual GUI
 local SideFrame = Instance.new("Frame") -- Visible when GUI is closed
@@ -1125,7 +1124,7 @@ MainFrame.Visible = true
 SideFrame.Visible = false
 MainFrame.Position = SideFrame.Position
 end)
-
+--Animations
 if (game:GetService"Players".LocalPlayer.Character:WaitForChild("Humanoid").RigType == Enum.HumanoidRigType.R15) then
 	ScrollingFrame.Visible = false
 	ScrollingFrameR15.Visible = true
