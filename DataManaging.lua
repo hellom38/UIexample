@@ -1,7 +1,4 @@
---[[
-///////// Made by remiel430
-//// Discord: Rem#0040
-]]
+--made by Dev_hellom38
 
 
 -- Services
